@@ -4,7 +4,7 @@ from AppClases.views import *
 urlpatterns = [
     path('', inicio),
     path('Estilos/', Estilos),
-    path('Estudiantes/', Estududiante),
+    path('Estudiantes/', Estudiantes),
     path('Profesores/', Profesores),
 ]
 

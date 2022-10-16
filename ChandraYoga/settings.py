@@ -55,7 +55,7 @@ ROOT_URLCONF = 'ChandraYoga.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [f'{BASE_DIR}/ChandraYoga/templates', f'{BASE_DIR}/AppClases/templates',f'{BASE_DIR}/AppEstilos/templates'],
+        'DIRS': [f'{BASE_DIR}/ChandraYoga/template', f'{BASE_DIR}/AppClases/template',f'{BASE_DIR}/AppEstilos/template'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -3,5 +3,5 @@ from AppClases.views import Estilos
 from AppEstilos.views import *
 
 urlpatterns = [
-    path('Estilos/',Estilos ),
+    path('Estilos/',Estilo ),
 ]

@@ -13,8 +13,8 @@ def Estilos(request):
 def Profesores(request):
     return render (request,"Profesores.html")
 
-def Estududiante(request):
-    return render (request,"Estudiante.html")            
+def Estudiantes(request):
+    return render (request,"Estudiantes.html")            
 
 
 

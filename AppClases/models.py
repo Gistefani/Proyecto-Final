@@ -13,7 +13,7 @@ class Profesores(models.Model):
     apellido = models.CharField (max_length=35)
     estilo = models.CharField (max_length=20)
 
-class Estudiante (models.Model):
+class Estudiantes (models.Model):
     nombre = models.CharField (max_length=40)
     apellido = models.CharField (max_length=40)
     email = models.EmailField()
