@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'AppClases',
+    'AppClases','AppEstilos'
 ]
 
 MIDDLEWARE = [
@@ -51,11 +51,11 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'ChandraYoga.urls'
-
+ 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [f'{BASE_DIR}/ChandraYoga/templates'],
+        'DIRS': [f'{BASE_DIR}/ChandraYoga/templates', f'{BASE_DIR}/AppClases/templates',f'{BASE_DIR}/AppEstilos/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
