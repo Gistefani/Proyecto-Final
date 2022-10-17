@@ -6,7 +6,6 @@ from django.http import HttpResponse
 def inicio(request):
     return render (request,"inicio.html")
 
-
 def Estilos(request):
     return render (request,"Estilos.html")
 
