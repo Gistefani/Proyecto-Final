@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path ,include
+from AppClases.views import inicio
 from ChandraYoga.views import home, homePage
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', home),
+    path('', inicio),
     path('AppClases/', include("AppClases.urls")),
     path('AppEstilos/',include("AppEstilos.urls")),
     
