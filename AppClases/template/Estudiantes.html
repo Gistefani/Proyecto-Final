@@ -1,8 +1,20 @@
 {% extends "inicio.html" %}
 
 {% load static %}
-
+<link rel="stylesheet" href="{%static 'css/miestilo.css'%}">
+<link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
 {% block contenido %}
 <p> Acceso a Estudiantes </p>
+<div class="contenidoEstudiantes">
+    <form class="formdataEstudiantes">
+        <p>Nombre: <input type="text"></p>
+        <input type="text" placeholder="Apellido">
+        <input type="password" placeholder="password">
+        <input type="email" placeholder="email">
+        <button type="button" class="btn btn-secondary">login</button>
+
+
+    </form>
+</div>
 
 {% endblock %}

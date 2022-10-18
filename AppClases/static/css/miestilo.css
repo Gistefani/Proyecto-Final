@@ -2,3 +2,40 @@
     position: relative;
     top: 60px;
 }
+
+.contenidoEstudiantes{
+    background-color:darkslategrey;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+}
+.formdataEstudiantes{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 15px;
+    background-color: rgb(155, 185, 241);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.contenidoProfesores{
+    background-color:darkslategrey;
+    display:flex;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+}
+.formdataProfesores{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 15px;
+    background-color: rgb(155, 185, 241);
+    border-radius: 5px;
+    padding: 20px;
+}  
+
+
+
