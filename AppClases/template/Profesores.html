@@ -6,11 +6,11 @@
 {% block contenido %}
 <p> Acceso a Profesores </p>
 <div class="contenidoProfesores">
-    <form class="formdataProfesores">
-        <p>Nombre: <input type="text"></p>
-        <input type="text" placeholder="Apellido">
-        <input type="password" placeholder="password">
-        <button type="button" class="btn btn-secondary">login</button>
+    <form class="formdataProfesores" action="/AppClases/Profesores/" method="POST"> {% csrf_token %}
+        <input type="text" name = "Nombre" placeholder="Nombre">
+        <input type="text"  name = "Apellido" placeholder="Apellido">
+        <input type="text"  name = "Estilo" placeholder="Estilo">
+        <button type="submit" class="btn btn-secondary">login</button>
 
 
     </form>
