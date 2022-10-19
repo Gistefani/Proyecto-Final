@@ -25,5 +25,5 @@ class Estudiantes(models.Model):
     email = models.EmailField()
     
     def __str__(self):
-        return f"nombre:{self.nombre} - Apellido:{self.apellido} - email:{self.email}"
+        return f"Nombre:{self.nombre} - Apellido:{self.apellido} - email:{self.email}"
     
