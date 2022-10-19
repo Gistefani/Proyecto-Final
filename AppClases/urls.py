@@ -7,11 +7,11 @@ urlpatterns = [
     path('Estudiantes/', Estudiantes),
     path('Profesores/', Profesores),
     path('api_estudiantes/', api_estudiantes),
-    path('buscar_estudiante/', buscar_estudiante),
-    path('create_estudiante/', create_estudiante),
-    path('delete_estudiante/', delete_estudiante),
-    path('read_estudiante/', read_estudiante),
-    path('update_estudiante/', update_estudiante)
+    path('buscar_estudiantes/', buscar_estudiante),
+    path('create_estudiantes/', create_estudiantes),
+    path('delete_estudiantes/<estudiante_email>', delete_estudiantes),
+    path('read_estudiantes/', read_estudiantes),
+    path('update_estudiantes/<estudiante_email>', update_estudiantes)
 ]
 
 

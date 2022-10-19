@@ -1,0 +1,12 @@
+{% load static %}
+<link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
+<link rel="stylesheet" href="{%static 'css/miestilo.css'%}">
+
+<form class="formdataEstudiantes" method="POST" action="/AppClases/create_estudiantes/">{%csrf_token%}
+    <input type="text" name="nombre" placeholder="nombre">
+    <input type="text" name="apellido" placeholder="apellido">
+    <input type="email" name="email" placeholder="email">
+    <button type="submit" class="btn btn-secondary">login</button>
+
+
+</form>
