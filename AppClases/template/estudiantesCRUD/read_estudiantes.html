@@ -1,6 +1,10 @@
+{% extends "../Home.html" %}
+
 {% load static %}
-<link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">
-{% for estudiante in estudiantes %}
+<!--<link rel="stylesheet" href="{%static 'css/bootstrap.min.css'%}">-->
+{% block contenido %}
+
+   {% for estudiante in estudiantes %}
     <li>
         {{estudiante}}</li>
         <a href= "/AppClases/update_estudiantes/{{estudiante.email}}" class="btn btn-warning">edit</a>
@@ -9,5 +13,6 @@
     <br>
 
 
-{% endfor %}
-<a class="btn btn-success" href="/AppClases/create_estudiantes/">Agregar</a>
+   {% endfor %}
+   <a class="btn btn-success" href="/AppClases/create_estudiantes/">Agregar</a>
+{% endblock %}   
