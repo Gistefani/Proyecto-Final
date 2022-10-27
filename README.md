@@ -38,4 +38,6 @@ Gisele Stefani -
 Finalizado/no totalmente funcional.
 video de funcionamiento
 No lo pude subir por el tamaño, lo enviopor el chat de coder (disculpas)
+ingreso con usuario=gi.stefani contraseña =coder_1234
+ingreso Admi= Gi.stefani contraseña =Gi33484515
 
