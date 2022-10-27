@@ -36,3 +36,6 @@ Gisele Stefani -
 🚧Estado del proyecto🚧:
 
 Finalizado/no totalmente funcional.
+video de funcionamiento
+No lo pude subir por el tamaño, lo enviopor el chat de coder (disculpas)
+
