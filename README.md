@@ -12,6 +12,7 @@ agregar nuevos.
  `Funcionalidad 1`:Home, desde aqui podemos acceder a las Clases ,donde nos va a llevar a logearnos para poder ingresar.Tambien
 podemos ingresar a los estilos ,donde se da una breve descripcion acerca de los mismos y se puede acceder a inscribirse 
 accediendo al area de registro.
+
  `Funcionalidad 2`:Inicio.Luego de logearse o registrase entramos al inicio del proyecto, aqui ya nos encontramos en el perfil de la persona donde
 puede agregar su foto de perfil y editarlo ingresando en el mismo. Tambien encontraremos una area de estudiantes donde 
 se pueden registrar para acceder a las diferentes clases por estilos y tambien un area de profesores para registrarse 
