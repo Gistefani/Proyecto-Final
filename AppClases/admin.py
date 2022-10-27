@@ -6,5 +6,5 @@ from.models import *
 admin.site.register(Estilo)
 admin.site.register(Estudiantes)
 admin.site.register(Profesores)
-
+admin.site.register(Avatar)
 
