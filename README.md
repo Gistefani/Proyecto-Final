@@ -36,4 +36,15 @@ Gisele Stefani -
 🚧Estado del proyecto🚧:
 
 
+## 🛠️ Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+
+## 📝 Nota
+
+El código fuente de este proyecto no está disponible 
+actualmente. El repositorio se mantiene como registro 
+del trabajo realizado.
 
